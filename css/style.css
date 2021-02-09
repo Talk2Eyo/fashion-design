@@ -1,0 +1,120 @@
+body{
+    color: #000000!important;
+}
+#icon{
+    font-family: 'Merienda';font-size: 22px;
+    background-color:#ffe5e6;
+    border-radius: 70px;
+}
+.buttons{
+    background-color:#faf9fe ;
+}
+.btn-outline-success{
+    background-color: #ffd5d6;
+    border-color: #ffd5d6;
+}
+.btn-outline-secondary{
+    background-color:#faf9fe ;
+    border-color: #ffffff;
+}
+.nav-icon{
+    width: 25px;
+}
+.sidebar-icons {
+    width: 13px;
+    margin-right: 7px;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+    top: 0;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+ .content {
+    margin-left: 200px;
+    padding: 1px 16px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    .content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+#flash-sales{
+  height: 400px;
+  text-align: center;
+}
+.background1{
+  background-color: #f4efdb;
+  height: 50%;
+  border-radius: 30px;
+}
+#flash-salesbox1{
+  background: url(../image/comfort.png) no-repeat; 
+  background-size: contain;
+  background-position: right;
+  width: 100%;
+  height: 100%;
+  text-align: left; 
+}
+#flash-salesbox12{
+  background-color: #bce7f0;
+  height: 50%;
+  border-radius: 30px;
+}
+.background2{
+  background-color: #eae9ee;
+  height: 100%;
+  border-radius: 30px;
+}
+#flash-salesbox2{
+  background: url(../image/nike1.png) no-repeat; 
+  background-size: contain;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+}
+.background3{
+  background-color: #f3f3f3;
+  height: 100%;
+  border-radius: 30px;
+}
+#flash-salesbox3{
+  background: url(../image/hand.png) no-repeat; 
+  background-size: contain;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+}
+}
